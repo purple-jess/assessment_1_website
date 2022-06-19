@@ -1,6 +1,67 @@
-h1 {
-  color: red;
+header {
+  background-color: #EB7BD6;
+  padding: 10px 0 10px 40px;
+  margin: 0 0 0 160px;
+
+
+
 }
+  header li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+  padding-left: 0;
+  }
+
+  header a {
+  color: white;
+  display: inline;
+  width: 500px;
+  }
+
+  header h1 {
+    color: 89023E;
+  }
+.navigation ul {
+  display: inline;
+
+  /* this whole section needs to be looked an rewritten, why is the list of links not going inline???? */
+}
+main {
+  margin-left: 180px;
+  background:
+}
+body {
+margin: 0;
+font-family: Helvetica;
+}
+
+.sidebar {
+  height: 100%;
+  width: 170px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #114B5F; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px;
+}
+
+.sidebar li {
+  color: #C189DF;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+.sidebar img {
+  text-align: center;
+}
+
+
+
+
 img {
   max-width: 50%;
 }

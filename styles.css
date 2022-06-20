@@ -8,7 +8,7 @@ header {
   header li {
     list-style-type: none;
     display: inline;
-    color: white;
+    color: #E6CFF2;
     padding-right: 20px;
   }
 
@@ -52,16 +52,16 @@ main {
 
   .sidebar {
     height: 100%;
-    width: 170px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    background-color: #4A2545; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #4A2545;
+    overflow-x: hidden;
     padding-top: 40px;
     border-right: solid 5px #99D5C9;
-  }
+    }
 
     .sidebar li {
       color: #99D5C9;

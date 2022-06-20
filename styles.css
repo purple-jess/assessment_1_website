@@ -76,7 +76,7 @@ main {
       margin: 20px 10%;
       padding: 10px 0;
       background-color: #A01887;
-      border: solid 3px #99D5C9;
+      border: solid 3px #C189DF;
       border-radius: 10%;
 
     }
@@ -84,7 +84,7 @@ main {
     .sidebar img {
       margin: 0 10%;
       border-radius: 50%;
-      border: solid 3px #99D5C9;
+      border: solid 3px #C189DF;
     }
     .sidebar a {
       color: #99D5C9;

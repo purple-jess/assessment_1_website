@@ -2,66 +2,125 @@ header {
   background-color: #EB7BD6;
   padding: 10px 0 10px 40px;
   margin: 0 0 0 160px;
-
-
-
+  border-bottom: solid 5px #99D5C9;
 }
+
   header li {
-  list-style-type: none;
-  display: inline;
-  color: white;
-  padding-left: 0;
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding-right: 20px;
   }
 
   header a {
-  color: white;
-  display: inline;
-  width: 500px;
+    color: #E6CFF2;
+    display: inline;
+
   }
 
   header h1 {
-    color: 89023E;
+    color: #4A2545;
+    font-size: 64px;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    margin: 10px 0;
   }
-.navigation ul {
-  display: inline;
+
+  header ul {
+    padding-inline-start: 0px;
+    margin-inline-start: 0;
+    display: flex;
+    margin: 10px 0;
+  }
 
   /* this whole section needs to be looked an rewritten, why is the list of links not going inline???? */
-}
-main {
-  margin-left: 180px;
-  background:
-}
 body {
-margin: 0;
-font-family: Helvetica;
-}
-
-.sidebar {
-  height: 100%;
-  width: 170px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #114B5F; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px;
-}
-
-.sidebar li {
-  color: #C189DF;
-  list-style-type: none;
   margin: 0;
-  display: flex;
+  font-family: Helvetica;
+  background-color: #C189DF;
 }
 
-.sidebar img {
-  text-align: center;
+main {
+  margin: 0 0 0 170px;
+  padding: 20px 50px 0 40px;
+  text-align: justify;
 }
 
+  main a {
+  color: #99D5C9;
+  }
 
 
+  .sidebar {
+    height: 100%;
+    width: 170px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #4A2545; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px;
+    border-right: solid 5px #99D5C9;
+  }
+
+    .sidebar li {
+      color: #99D5C9;
+      list-style-type: none;
+      margin: 0 10px;
+      padding: 5px 0;
+      overflow-wrap: break-word;
+
+    }
+
+    .sidebar ul {
+      margin: 20px 10%;
+      padding: 10px 0;
+      background-color: #A01887;
+      border: solid 3px #99D5C9;
+      border-radius: 10%;
+
+    }
+
+    .sidebar img {
+      margin: 0 10%;
+      border-radius: 50%;
+      border: solid 3px #99D5C9;
+    }
 
 img {
-  max-width: 50%;
+  max-width: 75%
+}
+
+  .screenshot {
+    width: 75%;
+  }
+
+h2 {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  color: #335C56;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+h3 {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-size: 24px;
+  color: #A01887;
+  margin: 10px 0;
+}
+
+h4 {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-size: 20px;
+}
+h5 {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.coffee img {
+  float: right;
+  margin: 0 0 10px 15px;
+  width: 300px;
 }
